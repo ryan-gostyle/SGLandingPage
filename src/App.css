@@ -2,6 +2,9 @@
 h1{
   font-size: 24px !important;
 }
+h3{
+  font-size: 1.17em !important;
+}
 body{
   font-family: "Fira Sans",sans-serif;
 }
@@ -159,7 +162,9 @@ body{
   margin: 0 auto;
   margin-top: 75px;
 }
-
+.ant-avatar.ant-avatar-icon{
+  line-height: 43px !important;
+}
 .subscribeTitle{
   padding: 15px 0 0 0;
   color: #fff;
@@ -229,4 +234,17 @@ body{
   color: rgba(0,0,0,.5);
   border-color: rgba(0,0,0,.1);
   border: none;
+}
+
+.footer li{
+  list-style-type: none;
+  text-align: left;
+  padding: 2px;
+}
+
+.footer li a{
+  font-weight: 500;
+  color:  #333;
+  text-decoration: none;
+  cursor: pointer;
 }

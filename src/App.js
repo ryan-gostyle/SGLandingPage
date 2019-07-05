@@ -10,19 +10,23 @@ import Subscribe from './components/section-6/subscribe'
 import SeenOn from './components/section-7/seenon'
 import SignUp from './components/section-8/signup'
 import Header from './Header'
+import Footer from './Footer'
+import PickCountry from './components/section-9/pickcountry'
 function App() {
   return (
     <div className="App">
       <Layout>
           <Header className="header"/>
-          <Banner/>
-          <HowItWorks/>
-          <AboutUs/>
-          <Brands/>
-          <Testimonials/>
-          <Subscribe/>
-          <SeenOn/>
-          <SignUp/>
+            <Banner/>
+            <HowItWorks/>
+            <AboutUs/>
+            <Brands/>
+            <Testimonials/>
+            <Subscribe/>
+            <SeenOn/>
+            {/*<SignUp/>*/}
+            <PickCountry/>
+          <Footer/>
       </Layout>
     </div>
   );
