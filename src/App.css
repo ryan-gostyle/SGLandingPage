@@ -1,0 +1,232 @@
+@import '~antd/dist/antd.css';
+h1{
+  font-size: 24px !important;
+}
+body{
+  font-family: "Fira Sans",sans-serif;
+}
+.App {
+  text-align: center;
+}
+.ant-layout{
+  background: #fff;
+}
+.ant-layout-header {
+  height: 80px;
+  padding: 0 50px;
+  line-height: 50px;
+  background: #4f3949;
+}
+
+.title{
+  padding: 15px 0 0 0;
+  font-weight: 700;
+  color: #4f3949;
+  font-size: xx-large;
+}
+.rowWidth{
+  max-width: 1075px;
+  margin: 0 auto;
+}
+.sections{
+  padding: 35px 15px;
+  height:100%;
+}
+
+.section-2,.section-4,.section-5{
+  margin: 10px;
+  padding: 10px 15px;
+}
+.howItWorksTitle{
+  padding: 15px 0 0 0;
+  color: #2d2926 ;
+}
+.howItWorksImage{
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  padding: 5px 15px 0 15px;
+}
+.howItWorksButton{
+  -moz-user-select: "none";
+  -ms-user-select: "none";
+  -webkit-user-select: "none";
+  user-select: "none";
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  width: auto;
+  background-color: #4F3948;
+  border-radius: 0;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2.2;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: outline 0.1s linear;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+}
+.column-padding{
+  padding: 15px 10px;
+}
+
+.content-align{
+  /* max-height: 560px; */
+  height: 100%;
+  top: 15px;
+ /* left: 29px;*/
+  display: block;
+  padding: 15px 0;
+  margin: 20px 0;
+}
+.section-3, .section-6{
+  margin: 10px 0;
+  background-color: #333;
+  padding: 10px 15px;
+
+}
+
+.titleAboutUs,.titleSubscribe{
+  padding: 15px 0;
+  font-weight: 700;
+  color: #fff;
+  font-size: xx-large;
+}
+
+.contentParagraph{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 15px;
+  color: #fff !important;
+  text-align: justify;
+  max-width: 430px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.aboutUsImage{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 390px;
+  max-height: 505px;
+  padding: 5px 15px 0 15px;
+}
+
+.ant-avatar.ant-avatar-icon {
+  width: 100px;
+  height: 100px;
+  line-height: 64px;
+  font-size: 85px;
+  position: relative;
+  top: -48px;
+  background: #4F3439;
+}
+.contentParagraphInverse{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 15px;
+  color: #4F3439 !important;
+  text-align: center;
+  max-width: 430px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  top: -42px;
+  font-style: italic;
+  position: relative;
+  padding: 10px;
+}
+.h3Testimonial{
+  position: relative;
+  top: -25px;
+  color: #4f3439;
+  font-weight: 600;
+}
+.rowWidthTestimonial{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+.subscribeTitle{
+  padding: 15px 0 0 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.contentParagraphSubscribe{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 15px;
+  color: #fff !important;
+  text-align: center;
+  max-width: 430px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.subscribeImage{
+  width: 70%;
+  height: inherit;
+  margin: 10px;
+  padding: 5px 15px 0 15px;
+}
+.signupButton{
+  -moz-user-select: "none";
+  -ms-user-select: "none";
+  -webkit-user-select: "none";
+  user-select: "none";
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  width: auto;
+  background-color: #4F3948;
+  border-radius: 0;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2.2;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: outline 0.1s linear;
+  color: #fff;
+  border: none;
+  padding: 5px 68px;
+}   
+.signupAlready{
+  color: #4F3948;
+  font-weight: 400;
+  font-size: large;
+  padding: 5px;
+  margin: 5px 10px; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.1);
+  border: none;
+}
