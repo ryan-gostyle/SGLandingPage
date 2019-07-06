@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'antd/dist/antd.css';
 import {Layout} from 'antd';
 import Banner from './components/section-1/banner';
 import HowItWorks from './components/section-2/how-it-works';
@@ -13,6 +14,7 @@ import PickCountry from './components/section-9/pickcountry'
 import About from './components/pages/about/about'
 import HowItWorksPage from './components/pages/how-it-works/howitworks'
 import FAQS from './components/pages/faqs/faqs'
+import Singapore from './components/pages/country/singapore'
 import Header from './Header'
 import Footer from './Footer'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
@@ -22,10 +24,11 @@ function App() {
       <Layout className="App">
         <Header className="header"/>
          <Switch>
-            <Route path="/" component={Home} exact />
+            <Route path="/" exact component={Home}  />
             <Route path="/about" component={About} />
             <Route path="/how-it-works" component={HowItWorksPage}/>
             <Route path="/faqs" component={FAQS}/>
+            <Route path="/singapore" component={Singapore} />
          </Switch>
         <Footer/>
       </Layout>

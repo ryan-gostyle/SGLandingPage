@@ -17,7 +17,7 @@ class PickCountry extends Component {
                         <a href="https://stylegenie.ph/"><img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/xPhilippines.png.pagespeed.ic.Clt0AilONO.webp" alt="" /></a>
                     </Col>
                     <Col xs={24} sm={12} md={6} lg={6} className="column-padding">
-                        <a href="/"><img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/xSingapore.png.pagespeed.ic.osN6BNeHzu.webp" alt="" /></a>
+                        <a href="/singapore"><img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/xSingapore.png.pagespeed.ic.osN6BNeHzu.webp" alt="" /></a>
                     </Col>
                 </Row>
             </div> 
