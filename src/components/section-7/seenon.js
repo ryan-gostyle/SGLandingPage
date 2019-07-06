@@ -7,7 +7,7 @@ class SeenOn extends Component {
                 <h1 className='title'>AS SEEN ON</h1>
                 <Row className="rowWidth"> 
                     <Col>
-                    <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Web_Stylegenie_Asia3_As-see-on.jpg" alt='' style={{width:'100%'}}/>
+                        <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Web_Stylegenie_Asia3_As-see-on.jpg" alt='' style={{width:'100%'}}/>
                     </Col>
                 </Row>
             </div>  

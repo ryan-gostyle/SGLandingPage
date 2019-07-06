@@ -11,7 +11,7 @@ class Footer extends Component {
                     <Col xs={24} sm={24} md={6} lg={4} className="column-padding" style={{maxHeight: 1000, display:'inline-block', position:'relative',maxWidth: '320px'}}>
                         <h6 style={{textAlign:"left",margin:"5px 0"}}>ABOUT US</h6>
                         <ul className="footer" style={{paddingInlineStart: 0}}>    
-                            <li><a href="/">FAQs</a></li>
+                            <li><a href="/faqs">FAQs</a></li>
                             <li><a href="/">Terms & Conditions</a></li>
                             <li><a href="/">Rewards Program</a></li>
                             <li><a href="/">Contact Us</a></li>

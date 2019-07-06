@@ -91,7 +91,7 @@ body{
 }
 .section-3, .section-6{
   margin: 10px 0;
-  background-color: #333;
+  background-color: rgb(79, 57, 73);
   padding: 10px 15px;
 
 }
@@ -225,12 +225,12 @@ body{
   margin: 5px 10px; 
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
   color: #fff !important;
   font-weight: 600;
 }
 
-.navbar-light .navbar-toggler {
+.navbar-dark .navbar-toggler {
   color: rgba(0,0,0,.5);
   border-color: rgba(0,0,0,.1);
   border: none;
@@ -247,4 +247,16 @@ body{
   color:  #333;
   text-decoration: none;
   cursor: pointer;
+}
+
+.getStartedButton{
+    border-radius: 5px;
+    background-color: #4F3948;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 0px;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 5px;
 }

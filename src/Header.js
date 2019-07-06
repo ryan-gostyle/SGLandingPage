@@ -11,7 +11,7 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  DropdownItem } from 'reactstrap'
 
 class Header extends Component {
   constructor(props) {
@@ -30,16 +30,16 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar color="#fff" style={{backgroundColor:'#4F3948'}} light expand="md">
-          <NavbarBrand href="/">       <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/stylegenie_white.png" alt=''  style={{width: 'auto',height: '75px',left: '33px'}} /></NavbarBrand>
+        <Navbar color="#fff" style={{backgroundColor:'#4F3948'}} dark expand="md">
+          <NavbarBrand href="/"><img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/stylegenie_white.png" alt=''  style={{width: 'auto',height: '75px',left: '33px'}} /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">ABOUT</NavLink>
+                <NavLink href="/about">ABOUT</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">HOW IT WORKS</NavLink>
+                <NavLink href="/how-it-works">HOW IT WORKS</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -52,15 +52,9 @@ class Header extends Component {
                   <DropdownItem>
                     Option 2
                   </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <NavItem>
-                <NavLink href="/">SUBSCRIBE</NavLink>
-              </NavItem>
+
             </Nav>
           </Collapse>
         </Navbar>

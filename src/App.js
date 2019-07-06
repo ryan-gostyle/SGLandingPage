@@ -9,27 +9,44 @@ import Testimonials from './components/section-5/testimonials'
 import Subscribe from './components/section-6/subscribe'
 import SeenOn from './components/section-7/seenon'
 import SignUp from './components/section-8/signup'
+import PickCountry from './components/section-9/pickcountry'
+import About from './components/pages/about/about'
+import HowItWorksPage from './components/pages/how-it-works/howitworks'
+import FAQS from './components/pages/faqs/faqs'
 import Header from './Header'
 import Footer from './Footer'
-import PickCountry from './components/section-9/pickcountry'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 function App() {
   return (
-    <div className="App">
-      <Layout>
-          <Header className="header"/>
-            <Banner/>
-            <HowItWorks/>
-            <AboutUs/>
-            <Brands/>
-            <Testimonials/>
-            <Subscribe/>
-            <SeenOn/>
-            {/*<SignUp/>*/}
-            <PickCountry/>
-          <Footer/>
+    <Router>
+      <Layout className="App">
+        <Header className="header"/>
+         <Switch>
+            <Route path="/" component={Home} exact />
+            <Route path="/about" component={About} />
+            <Route path="/how-it-works" component={HowItWorksPage}/>
+            <Route path="/faqs" component={FAQS}/>
+         </Switch>
+        <Footer/>
       </Layout>
-    </div>
+    </Router>
   );
 }
+
+const Home = () => (
+  <div className="App">
+    <Banner/>
+    <HowItWorks/>
+    <AboutUs/>
+    <Brands/>
+    <Testimonials/>
+    <Subscribe/>
+    <SeenOn/>
+    <PickCountry/>
+  </div>
+);
+
+
+
 
 export default App;
