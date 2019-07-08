@@ -47,7 +47,7 @@ class Content extends Component {
     render() {  
         const renderSubscribes = this.state.subscribes;
         const renderState = renderSubscribes.map(subscribe => 
-            <Col xs={24} sm={12} md={12} lg={8}  key={subscribe.key} className="column-padding" style={{maxHeight: 660,minHeight:450}}>
+            <Col xs={24} sm={12} md={12} lg={8}  key={subscribe.key} className="column-padding" style={{maxHeight: 660,minHeight:371}}>
                 <img src={subscribe.image} alt="" className="subscribeImage" />
                <h1 className="subscribeTitle"> {subscribe.title}</h1>
                <p className="contentParagraphSubscribe"> {subscribe.description}</p>

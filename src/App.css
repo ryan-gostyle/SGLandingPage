@@ -1,7 +1,17 @@
 @import '~antd/dist/antd.css';
-h1{
-  font-size: 24px !important;
+h1 {
+  font-size: 1.1em !important;
 }
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
+
+.column-padding {
+    padding: 10px 13px;
+}
+
 h3{
   font-size: 1.17em !important;
 }
@@ -23,11 +33,11 @@ body{
   background: #4f3949;
 }
 
-.title{
-  padding: 15px 0 0 0;
+.title {
+  padding: 10px 0 0;
   font-weight: 700;
   color: #4f3949;
-  font-size: xx-large;
+  font-size: 1.6em !important;
 }
 .rowWidth{
   max-width: 1075px;
@@ -43,16 +53,19 @@ body{
   padding: 10px 15px;
 }
 .howItWorksTitle{
-  padding: 15px 0 0 0;
+  padding: 10px 0 0 0;
   color: #2d2926 ;
 }
-.howItWorksImage{
-  width: 100%;
-  height: 100%;
-  margin: 10px;
-  padding: 5px 15px 0 15px;
+.howItWorksImage {
+  width: 170px;
+  height: 140px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px 15px 0;
 }
-.howItWorksButton{
+
+.howItWorksButton {
   -moz-user-select: "none";
   -ms-user-select: "none";
   -webkit-user-select: "none";
@@ -63,7 +76,7 @@ body{
   display: inline-block;
   position: relative;
   width: auto;
-  background-color: #4F3948;
+  background-color: #4f3948;
   border-radius: 0;
   font-weight: 600;
   letter-spacing: 2px;
@@ -73,13 +86,11 @@ body{
   line-height: 2.2;
   vertical-align: middle;
   cursor: pointer;
-  transition: outline 0.1s linear;
+  -webkit-transition: outline .1s linear;
+  transition: outline .1s linear;
   color: #fff;
   border: none;
-  padding: 5px 15px;
-}
-.column-padding{
-  padding: 15px 10px;
+  /* padding: 5px 15px; */
 }
 
 .content-align{
@@ -329,4 +340,26 @@ a.dropdown-navlink-color:hover {
   color: #fff;
   border: none;
   padding: 5px 15px;
+}
+
+
+/* Changes */
+
+.titleAboutUs, .titleSubscribe {
+  padding: 15px 0;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.6em;
+}
+
+.subscribeImage {
+  width: 170px;
+  height: inherit;
+  margin: 10px;
+  padding: 5px 15px 0;
+}
+
+.pickCountry img{
+  height: 93px;
+  width: 113px;
 }
