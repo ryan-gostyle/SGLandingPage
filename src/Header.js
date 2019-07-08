@@ -45,12 +45,18 @@ class Header extends Component {
                 <DropdownToggle nav caret>
                 CHANGE COUNTRY
                 </DropdownToggle>
-                <DropdownMenu right>
+                <DropdownMenu>
                   <DropdownItem>
-                    Option 1
+                    <a href="/indonesia" className="dropdown-navlink-color">Indonesia</a>
                   </DropdownItem>
                   <DropdownItem>
-                    Option 2
+                    <a href="/malaysia" className="dropdown-navlink-color">Malaysia</a>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <a href="https://stylegenie.ph" className="dropdown-navlink-color">Philippines</a>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <a href="/singapore" className="dropdown-navlink-color">Singapore</a>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>

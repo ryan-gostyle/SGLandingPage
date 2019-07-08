@@ -14,7 +14,12 @@ import PickCountry from './components/section-9/pickcountry'
 import About from './components/pages/about/about'
 import HowItWorksPage from './components/pages/how-it-works/howitworks'
 import FAQS from './components/pages/faqs/faqs'
+import Rewards from './components/pages/rewards-and-programs/rewards'
+import Careers from './components/pages/careers/careers'
+import BrandPartnerships from './components/pages/brands-partnership/brands-partnership'
 import Singapore from './components/pages/country/singapore'
+import Malaysia from './components/pages/country/malaysia'
+import Indonesia from './components/pages/country/indonesia'
 import Header from './Header'
 import Footer from './Footer'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
@@ -29,6 +34,11 @@ function App() {
             <Route path="/how-it-works" component={HowItWorksPage}/>
             <Route path="/faqs" component={FAQS}/>
             <Route path="/singapore" component={Singapore} />
+            <Route path="/malaysia" component={Malaysia} />
+            <Route path="/indonesia" component={Indonesia} />
+            <Route path="/rewards-and-referrals-program" component={Rewards} />
+            <Route path="/careers" component={Careers} />
+            <Route path="/brand-partnerships" component={BrandPartnerships} />
          </Switch>
         <Footer/>
       </Layout>

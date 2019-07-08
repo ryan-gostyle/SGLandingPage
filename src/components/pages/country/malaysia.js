@@ -3,7 +3,7 @@ import Banner from '../../section-1/banner'
 import HowItWorks from '../../section-2/how-it-works'
 import About from '../../section-3/about-us'
 import FAQS from '../faqs/faqs'
-class Singapore extends Component {
+class Malaysia extends Component {
     render() {
         return (
             <div>
@@ -15,4 +15,4 @@ class Singapore extends Component {
         )
     }
 }
-export default Singapore
+export default Malaysia

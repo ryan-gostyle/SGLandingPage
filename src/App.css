@@ -7,6 +7,8 @@ h3{
 }
 body{
   font-family: "Fira Sans",sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 .App {
   text-align: center;
@@ -259,4 +261,72 @@ body{
     text-align: center;
     font-weight: 500;
     margin: 25px 5px;
+}
+
+.zoom:hover {
+  transition: transform .5s ease !important;
+  transform: scale(1.5) !important;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+  color: #fff;
+  background-color: rgb(79, 57, 72);
+  font-weight:500;
+}
+
+.ant-collapse {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: 'tnum';
+  font-feature-settings: 'tnum', "tnum";
+  background-color: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.65);
+  border-bottom: 0;
+  border-radius: 4px;
+}
+.ant-collapse > .ant-collapse-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.65); 
+}
+
+.dropdown-navlink-color{
+  color: rgba(0, 0, 0, 0.65);
+}
+
+a.dropdown-navlink-color:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.careers,.careers a,.careers a:hover{
+  -moz-user-select: "none";
+  -ms-user-select: "none";
+  -webkit-user-select: "none";
+  user-select: "none";
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  width: auto;
+  background-color: #4F3948;
+  border-radius: 0;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2.2;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: outline 0.1s linear;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
 }

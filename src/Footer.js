@@ -9,20 +9,20 @@ class Footer extends Component {
                         <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/stylegenie.png" alt=''  style={{width: '100%',height: 'auto',left: '33px'}} />
                     </Col>
                     <Col xs={24} sm={24} md={6} lg={4} className="column-padding" style={{maxHeight: 1000, display:'inline-block', position:'relative',maxWidth: '320px'}}>
-                        <h6 style={{textAlign:"left",margin:"5px 0"}}>ABOUT US</h6>
+                        <h6 style={{textAlign:"left",margin:"5px 0"}}></h6>
                         <ul className="footer" style={{paddingInlineStart: 0}}>    
                             <li><a href="/faqs">FAQs</a></li>
                             <li><a href="/">Terms & Conditions</a></li>
-                            <li><a href="/">Rewards Program</a></li>
+                            <li><a href="/rewards-and-referrals-program">Rewards Program</a></li>
                             <li><a href="/">Contact Us</a></li>
                         </ul>
                     </Col>
                     <Col xs={24} sm={24} md={6} lg={4} className="column-padding" style={{maxHeight: 1000, display:'inline-block', position:'relative',maxWidth: '320px'}}>
-                        <h6 style={{textAlign:"left",margin:"5px 0"}}>WORK WITH US</h6>
+                        <h6 style={{textAlign:"left",margin:"5px 0"}}></h6>
                         <ul className="footer" style={{paddingInlineStart: 0}}>
-                            <li><a href="/">List your Brand</a></li>
+                            <li><a href="/brand-partnerships">List your Brand</a></li>
                             <li><a href="/">Become a Stylist</a></li>
-                            <li><a href="/">Careers</a></li>
+                            <li><a href="/careers">Careers</a></li>
                         </ul>
                     </Col>
                     <Col xs={24} sm={24} md={6} lg={4} className="column-padding" style={{maxHeight: 1000, display:'inline-block', position:'relative',maxWidth: '320px'}}>
