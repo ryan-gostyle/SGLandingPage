@@ -20,6 +20,7 @@ import BrandPartnerships from './components/pages/brands-partnership/brands-part
 import Singapore from './components/pages/country/singapore'
 import Malaysia from './components/pages/country/malaysia'
 import Indonesia from './components/pages/country/indonesia'
+import TermsCondition from './components/pages/terms/terms'
 import Header from './Header'
 import Footer from './Footer'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
@@ -39,6 +40,7 @@ function App() {
             <Route path="/rewards-and-referrals-program" component={Rewards} />
             <Route path="/careers" component={Careers} />
             <Route path="/brand-partnerships" component={BrandPartnerships} />
+            <Route path="/terms-and-condition" component={TermsCondition} />
          </Switch>
         <Footer/>
       </Layout>

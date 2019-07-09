@@ -109,11 +109,11 @@ body{
 
 }
 
-.titleAboutUs,.titleSubscribe{
+.titleAboutUs, .titleSubscribe {
   padding: 15px 0;
   font-weight: 700;
   color: #fff;
-  font-size: xx-large;
+  font-size: 1.6em;
 }
 
 .contentParagraph{
@@ -197,12 +197,13 @@ body{
   margin-bottom: 15px;
 }
 
-.subscribeImage{
-  width: 70%;
+.subscribeImage {
+  width: 170px;
   height: inherit;
   margin: 10px;
-  padding: 5px 15px 0 15px;
+  padding: 5px 15px 0;
 }
+
 .signupButton{
   -moz-user-select: "none";
   -ms-user-select: "none";
@@ -257,7 +258,7 @@ body{
 
 .footer li a{
   font-weight: 500;
-  color:  #333;
+  color:  #212529;
   text-decoration: none;
   cursor: pointer;
 }
@@ -342,24 +343,10 @@ a.dropdown-navlink-color:hover {
   padding: 5px 15px;
 }
 
-
-/* Changes */
-
-.titleAboutUs, .titleSubscribe {
-  padding: 15px 0;
-  font-weight: 700;
-  color: #fff;
-  font-size: 1.6em;
-}
-
-.subscribeImage {
-  width: 170px;
-  height: inherit;
-  margin: 10px;
-  padding: 5px 15px 0;
-}
-
 .pickCountry img{
   height: 93px;
   width: 113px;
 }
+
+
+

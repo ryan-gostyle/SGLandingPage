@@ -6,13 +6,13 @@ class Footer extends Component {
             <div className="col-24 sections" style={{borderTop:'solid 3px #4F3948',margin:0,padding:'10px 15px'  }}>
                 <Row style={{margin:'0 auto'}}>
                     <Col xs={24} sm={24} md={24} lg={6} className="column-padding" style={{maxHeight: 1000, display:'inline-block', position:'relative'}}>
-                        <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/stylegenie.png" alt=''  style={{width: '260px',height: '75px',left: '33px'}} />
+                        <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/stylegenie.png" alt=''  style={{width: '250px',height: '100%',left: '33px'}} />
                     </Col>
                     <Col xs={12} sm={12} md={6} lg={4} className="column-padding" style={{maxHeight: 1000, display:'inline-block', position:'relative',maxWidth: '320px'}}>
                         <h6 style={{textAlign:"left",margin:"5px 0"}}></h6>
                         <ul className="footer" style={{paddingInlineStart: 0}}>    
                             <li><a href="/faqs">FAQs</a></li>
-                            <li><a href="/">Terms & Conditions</a></li>
+                            <li><a href="/terms-and-condition">Terms & Conditions</a></li>
                             <li><a href="/rewards-and-referrals-program">Rewards Program</a></li>
                             <li><a href="/">Contact Us</a></li>
                         </ul>
@@ -33,7 +33,7 @@ class Footer extends Component {
                                 The Incubator 2F AIM Conference Center
                                 132 Benavidez St. Legazpi Village 
                                 Makati City Philippines 1229
-                            </li>
+                            </li> <br/>
                             <li style={{textAlign:'justify',fontWeight:'400'}}>
                                 <b>Singapore:</b>
                                 14 Hougang St. 11 06-71 
